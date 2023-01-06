@@ -27,6 +27,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
+    Zappar.UAR.dll:
+    - Zappar.ZapparUARSettings
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -50,31 +52,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 11384}
+    - Class: 114
+      Script: {instanceID: 11618}
+    - Class: 114
+      Script: {instanceID: 11668}
+    - Class: 114
+      Script: {instanceID: 11752}
+    - Class: 114
+      Script: {instanceID: 11938}
+    - Class: 114
+      Script: {instanceID: 12192}
+    - Class: 114
+      Script: {instanceID: 12216}
+    - Class: 114
+      Script: {instanceID: 12484}
+    - Class: 114
+      Script: {instanceID: 12516}
     - Class: 114
       Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 13482}
     - Class: 114
-      Script: {instanceID: 13100}
-    - Class: 114
-      Script: {instanceID: 13336}
-    - Class: 114
-      Script: {instanceID: 13360}
-    - Class: 114
-      Script: {instanceID: 13608}
-    - Class: 114
-      Script: {instanceID: 13636}
-    - Class: 114
-      Script: {instanceID: 13906}
-    - Class: 114
-      Script: {instanceID: 14170}
-    - Class: 114
-      Script: {instanceID: 14550}
-    - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 13984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -113,19 +115,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13360}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 14550}
+      Script: {instanceID: 13482}
     - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 13984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -162,23 +164,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 11384}
+    - Class: 114
+      Script: {instanceID: 11618}
+    - Class: 114
+      Script: {instanceID: 11668}
+    - Class: 114
+      Script: {instanceID: 12192}
+    - Class: 114
+      Script: {instanceID: 12216}
     - Class: 114
       Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13482}
     - Class: 114
-      Script: {instanceID: 13360}
-    - Class: 114
-      Script: {instanceID: 13906}
-    - Class: 114
-      Script: {instanceID: 14170}
-    - Class: 114
-      Script: {instanceID: 14550}
-    - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 13984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -217,19 +219,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 13360}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 14550}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 13482}
+    - Class: 114
+      Script: {instanceID: 13984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -283,10 +287,22 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: 450e0a6547f9899a2944ac2896bf0d75
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparFullHeadModel
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7e225e113c6e895c04b8ef5391280d23
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparUARSettings
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -317,6 +333,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6df9839fdef2ac64ae51387585d909f8
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparFaceLandmark
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -355,6 +377,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 49bc2e719c5de20ab1dc8b4a72bdef9a
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar.Obsolete
+    className: ZapparFaceTrackingTarget
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -377,6 +405,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5c069c6d2af59fcdbd01d083e7d93eb3
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparCamera
   - hash:
       serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
@@ -407,6 +441,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef93b5a61a0f90cbb71c072999ed52f
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparGyroCamera
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -445,10 +485,22 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparCameraBackground
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c7f87c0286e14c08b79a490d2f15b721
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparFaceTrackingAnchor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -461,6 +513,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ddaf8d5ad3d192f331ed0546d414fad5
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparImageTrackingTarget
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -511,6 +569,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: b0295a4e4d4f4affebd40704b39de17e
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparMultiFaceTrackingTarget
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -541,6 +605,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 7eb94b4f8b3f80080c042999d6c4de4b
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparReflectionProbe
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -551,6 +621,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparGyroCameraBackground
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -571,6 +647,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 90257db06dd6db04a52d5223270f5703
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparFaceDepthMask
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -583,6 +665,18 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 90257db06dd6db04a52d5223270f5703
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparFaceMeshTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: LogManager
+  - hash:
+      serializedVersion: 2
       Hash: 8f15c253902ff4eef507927669b9dc80
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -593,6 +687,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: f2b6b73232b0856a611b1af4d57ee40a
+    assemblyName: Zappar.UAR.dll
+    namespaceName: Zappar
+    className: ZapparInstantTrackingTarget
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -683,4 +783,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/upload.unity
   - Assets/Scenes/cart.unity
-  playerPath: C:/Users/hp/Downloads/zapp_hackathon/zapp.apk
+  playerPath: C:/Users/hp/Downloads/zapp_hackathon/zapp1.apk
