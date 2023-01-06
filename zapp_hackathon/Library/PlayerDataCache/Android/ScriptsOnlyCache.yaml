@@ -783,4 +783,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/upload.unity
   - Assets/Scenes/cart.unity
-  playerPath: C:/Users/hp/Downloads/zapp_hackathon/zapp1.apk
+  playerPath: C:/Users/hp/Downloads/zapp_hackathon/zapp2.apk
